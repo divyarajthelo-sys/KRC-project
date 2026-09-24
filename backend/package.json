@@ -1,0 +1,16 @@
+{
+  "name": "krc-document-portal-backend",
+  "version": "1.0.0",
+  "description": "KRC Document Portal Backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^18.0.3",
+    "express": "^5.1.0",
+    "mysql2": "^3.14.4",
+    "pizzip": "^3.2.0"
+  }
+}

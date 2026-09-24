@@ -1,0 +1,15 @@
+node_modules/
+
+# Backend runtime output - not source, and can be large
+backend/generated/
+backend/temp/
+
+# Secrets - never commit real credentials
+backend/.env
+
+# Frontend build output
+frontend/build/
+
+# Logs
+*.log
+npm-debug.log*
