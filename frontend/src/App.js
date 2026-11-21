@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
 
-const API =
+const RAW_API =
   process.env.REACT_APP_API_URL ||
   "http://localhost:5000";
+
+const API = RAW_API.replace(/\/+$/, "");
 
 function App() {
   const [page, setPage] = useState("generate");

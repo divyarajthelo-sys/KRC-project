@@ -17,21 +17,21 @@ const MAX_INVENTORS = 15;
 
 const COLLEGES = {
     1: {
-        name: "K.Ramakrishnan College of Engineering",
+        name: "K.RAMAKRISHNAN COLLEGE OF ENGINEERING",
         upper: "K.RAMAKRISHNAN COLLEGE OF ENGINEERING",
         address:
             "NH-45, Samayapuram, Trichy, Tamil Nadu, India- 621112"
     },
 
     2: {
-        name: "K.Ramakrishnan College of Technology",
+        name: "K.RAMAKRISHNAN COLLEGE OF TECHNOLOGY",
         upper: "K.RAMAKRISHNAN COLLEGE OF TECHNOLOGY",
         address:
             "Kariyamanickam Road, Samayapuram, Trichy, Tamil Nadu, India-621112"
     },
 
     3: {
-        name: "M.Kumarasamy College of Engineering",
+        name: "M.KUMARASAMY COLLEGE OF ENGINEERING",
         upper: "M.KUMARASAMY COLLEGE OF ENGINEERING",
         address:
             "Thalavapalayam, Karur, Tamil Nadu, India-639113"

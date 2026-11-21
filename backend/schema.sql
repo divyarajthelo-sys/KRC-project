@@ -16,9 +16,9 @@ CREATE TABLE IF NOT EXISTS colleges (
 -- (same ids), since that file is the source of truth for the
 -- /api/colleges dropdown and document text.
 INSERT INTO colleges (id, college_name, college_address) VALUES
-    (1, 'K.Ramakrishnan College of Engineering', 'NH-45, Samayapuram, Trichy, Tamil Nadu, India- 621112'),
-    (2, 'K.Ramakrishnan College of Technology', 'Kariyamanickam Road, Samayapuram, Trichy, Tamil Nadu, India-621112'),
-    (3, 'M.Kumarasamy College of Engineering', 'Thalavapalayam, Karur, Tamil Nadu, India-639113')
+    (1, 'K.RAMAKRISHNAN COLLEGE OF ENGINEERING', 'NH-45, Samayapuram, Trichy, Tamil Nadu, India- 621112'),
+    (2, 'K.RAMAKRISHNAN COLLEGE OF TECHNOLOGY', 'Kariyamanickam Road, Samayapuram, Trichy, Tamil Nadu, India-621112'),
+    (3, 'M.KUMARASAMY COLLEGE OF ENGINEERING', 'Thalavapalayam, Karur, Tamil Nadu, India-639113')
 ON DUPLICATE KEY UPDATE
     college_name = VALUES(college_name),
     college_address = VALUES(college_address);
